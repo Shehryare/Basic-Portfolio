@@ -27,10 +27,7 @@ header {
     color: white;
 }
 
-.APC {
-    text-align: right;
-    top: 0;
-}
+
 
 #aboutme {
     position: relative;
@@ -90,4 +87,28 @@ header {
    width: 100%;
    background-color: grey;
    color: oldlace;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-emphasis: spacin; 3px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
   }

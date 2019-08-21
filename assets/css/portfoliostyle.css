@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: brown;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 125px;
+    padding: 20px;
+    margin-bottom: 20px;
+  color: #333;
+  background-color: wheat;
+}
+
+.name {
+    height: 95px;
+    width: 350px;
+    padding: 10px;
+    margin: 0;
+    background: brown;
+    color: white;
+}
+
+.APC {
+    text-align: right;
+    top: 0;
+}
+
+#aboutme {
+    position: relative;
+    background-color: wheat;
+    height: 400px;
+    padding: 20px;
+    width: 900px;
+   margin-left: 20%;
+}
+
+#contact {
+    position: relative;
+    background-color: wheat;
+    height: 650px;
+    padding: 20px;
+    width: 900px;
+   margin-left: 20%;
+}
+
+#Submitbtn {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+    background-color: brown;
+}
+
+#bio {
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#content {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: absolute;
+    text-align: center;
+    line-height: 1.5;
+    bottom: 0;
+    margin-left: 260px;
+    font-size: 21px;
+}
+
+#Portfolio {position: relative;
+    background-color: wheat;
+    height: 650px;
+    padding: 20px;
+    width: 900px;
+   margin-left: 20%;
+}
+
+
+
+.footer {
+    height: 100px;
+    text-align: center;
+    left: 0;
+   margin-top: 18%;
+   width: 100%;
+   background-color: grey;
+   color: oldlace;
+  }

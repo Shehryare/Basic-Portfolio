@@ -42,7 +42,11 @@ header h1::after {
 
 .profile-img {
   float:left;
+  margin-top: 100px;
+  margin-right: 100px;
+  border: 5px solid black;
 }
+
 
 .bio-content::after {
   content: "";
@@ -91,7 +95,7 @@ header h1::after {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#content {
+/* #content {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     position: absolute;
     text-align: center;
@@ -99,7 +103,18 @@ header h1::after {
     bottom: 0;
     margin-left: 260px;
     font-size: 21px;
+} */
+
+.bio-content {
+    text-align: -webkit-center;
+    padding: 100px 50px 0px 300px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 2;
+    font-family: fantasy;
+    word-spacing: 15px
 }
+
 
 #Portfolio {position: relative;
     background-color: wheat;

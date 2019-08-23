@@ -69,14 +69,6 @@ header h1::after {
   font-size: 40px;
 }
 
-/* #aboutme {
-    position: relative;
-    background-color: wheat;
-    height: 400px;
-    padding: 20px;
-    width: 900px;
-   margin-left: 20%;
-} */
 
 #contact {
     position: relative;
@@ -98,16 +90,6 @@ header h1::after {
     font-size: 30px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-
-/* #content {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    position: absolute;
-    text-align: center;
-    line-height: 1.5;
-    bottom: 0;
-    margin-left: 260px;
-    font-size: 21px;
-} */
 
 .bio-content {
     text-align: -webkit-center;
@@ -184,14 +166,19 @@ header h1::after {
   width: 960px;
   background-color: deeppink;
   padding: 40px;
-  padding-bottom: 25%;
+  padding-bottom: 10%;
 }
 
 .input-field {
   margin-bottom: 15px;
+  line-height: 3;
   }
 
   .menu {
     margin-top: 2px;
     list-style-type: none;
+  }
+
+  form {
+    font-family: 'Prompt', sans-serif;
   }

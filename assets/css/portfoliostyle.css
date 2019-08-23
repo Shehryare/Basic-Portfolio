@@ -182,3 +182,24 @@ header h1::after {
   form {
     font-family: 'Prompt', sans-serif;
   }
+
+  .portfolio-img {
+    position: relative;
+    float: left;
+    margin: 20px;
+  }
+
+  .project-name {
+    position: absolute;
+    border: 2px solid whitesmoke;
+    width: 100%;
+    background-color: lightgreen;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+  }
+
+  .portfolio-img::after {
+    content: "";
+  display: block;
+  clear: both;
+  }

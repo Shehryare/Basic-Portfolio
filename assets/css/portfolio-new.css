@@ -15,12 +15,11 @@ header {
     height: 125px;
     padding: 20px;
     margin-bottom: 20px;
-    border-bottom: 7px solid yellow;
   color: #333;
   background-color: rgb(0, 2, 255);
 }
 
-/* .headerline {
+.headerline {
     height: 20px;
     text-align: center;
     left: 0;
@@ -30,7 +29,7 @@ header {
    color: wheat;
    margin-top: -40px;
 
-} */
+}
 
 header h1{
     float:left;
@@ -40,16 +39,6 @@ header h1::after {
     content: "";
     display: block;
     clear: both;
-}
-
-.profile-img {
-  float:left;
-}
-
-.bio-content::after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .name {

@@ -202,3 +202,7 @@ header h1::after {
   display: block;
   clear: both;
   }
+
+  @media only screen and (max-device-width: 480px), only screen and (max-device-width: 480px) {
+
+  }
